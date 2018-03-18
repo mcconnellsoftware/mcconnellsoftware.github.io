@@ -3,6 +3,8 @@ layout: single
 title:  "About"
 date:   2018-03-14 22:55:29 +0000
 permalink: /about/
+header:
+  image: /assets/images/header_wave.jpg
 ---
 
 ## A bit about me...
