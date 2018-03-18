@@ -2,8 +2,7 @@
 layout: single
 title:  "Blogging for Hackers"
 date:   2018-03-18 12:21:29 +0000
-tags: Blogging
-classes: wide
+tags: Tech
 header:
   image: /assets/images/header_wave.jpg
 ---
