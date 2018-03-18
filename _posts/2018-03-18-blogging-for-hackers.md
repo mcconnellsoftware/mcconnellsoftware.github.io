@@ -25,5 +25,15 @@ Some key aspects worth mentioning:
 There are some minor gotchas to be aware of:
 - getting the whole local Linux, Ruby stuff going properly on Windows 10 can be fiddly: random "libcurl.so not found" errors could be pretty much a showstopper for the less technically adept 
 - local-deploy vs remote-hosted situations require _mutually exclusive config changes_ to theme and Gem settings; in practice this means get your basic config files up and working for GitHub Pages use, then simply _don't commit/push them_ when running locally - just commit your content changes 
+- working to visual themes is much less "switch at the press of a button" than Wordpress; I recommend finding one you really like and then sticking with it while you learn and understand the system, while being aware if you do want to change in the future it might be a bit more involved than you'd like - layout names will vary, features will be unrecognised and produce errors, etc
 
-All in all, I find it an excellent end to end platform and now look forward to resuming my twice yearly posting pattern!
+All in all, I find it an excellent end-to-end platform and now look forward to resuming my twice yearly posting pattern!
+
+Links/further reading:
+
+[GitHub Pages](https://pages.github.com/)  
+[Jekyll](https://jekyllrb.com/docs/github-pages/)  
+["Minimal Mistakes" theme - used here](https://mmistakes.github.io/minimal-mistakes/)  
+[Full range of Jekyll themes](http://jekyllthemes.org/)  
+
+And of course feel free to [explore my own repo](https://github.com/mcconnellsoftware/mcconnellsoftware.github.io) to see what config choices I've made, etc
