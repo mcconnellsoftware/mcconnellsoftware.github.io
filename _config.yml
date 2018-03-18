@@ -105,7 +105,7 @@ author:
   name             : "Brian McConnell"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "A freelance software developer working in Central Scotland"
-  location         : "Central Scotland, UK"
+  location         : "UK"
   email            : "info@mcconnellsoftware.co.uk"
   uri              :
   home             : # null (default), "absolute or relative url to link to author home"
