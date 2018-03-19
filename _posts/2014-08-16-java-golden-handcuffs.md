@@ -20,7 +20,7 @@ they’re seriously considering using something new. Vaunted languages like Scal
 impact, albeit there are enterprises dipping toes in the water.
 
 My take on it: Java’s longevity has little to do with its basic syntax, which is often clunky and wasteful 
-(Map<String, Map<String, List<Customer>>> anyone?), and its APIs (Date, cough) can leave a lot to be desired.
+(`Map<String, Map<String, List<Customer>>>` anyone?), and its APIs (`Date`, cough) can leave a lot to be desired.
 
 No. The reason for Java’s ongoing favour is entirely down to its ecosystem.
 
