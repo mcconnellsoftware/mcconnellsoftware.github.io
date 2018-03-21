@@ -5,7 +5,7 @@ date:   2018-03-20 12:21:29 +0000
 tags: Misc
 classes: wide
 ---
-For many of us that work in technology, the Facebook / Cambridge Analytic crisis currently unfolding (March 2018) is 
+For many of us that work in technology, the Facebook / Cambridge Analytica crisis currently unfolding (March 2018) is 
 getting attention not just because of the facts of the story, but instead: why has the world started caring _now_?
 
 Personally, I think it's simply one of these ideas whose time has come; the tectonic pressure has been building for 
