@@ -100,7 +100,8 @@ training courses, or adopting a quarterly tech book buying (and reading!) regime
 - think strategically: you've spent time on HN and other online tech hubs, you've most likely been in some form of 
 workplace, you've kept yourself in touch with the local job market - what technologies seem to be gaining traction? 
 Which ones do job adverts ask for? Which ones can you actually practice at home - open source is a fantastic phenomenon 
-for the democratisation of technology!
+for the democratisation of technology! This is actually an important one: don't scatter your learning energies anywhere 
+and everywhere, be judicious and invest your time like the scarce resource it truly is.
 
 - if you're an employee rather than a freelancer or a company founder yourself, there's a good chance your manager can
 help give you some direction, and perhaps even match it with course-based training allowances - covering both time and 
