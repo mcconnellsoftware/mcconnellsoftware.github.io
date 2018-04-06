@@ -11,6 +11,6 @@ info@mcconnellsoftware.co.uk
 
 Or yelp/shriek/holler/whatever at me on Twitter:
 
-xbmccx
+https://twitter.com/xbmccx
 
 Thanks!
