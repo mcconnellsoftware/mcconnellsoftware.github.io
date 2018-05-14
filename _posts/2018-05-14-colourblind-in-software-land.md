@@ -24,28 +24,35 @@ of your own.
 
 ## What I See != What You See
 
-Most importanly: _the colour blind world is not black and white._ It's colourful, vivid, bright - as you'd expect, really, when 
+Most importantly: _the colour blind world is not black and white._ It's colourful, vivid, bright - as you'd expect, really, when 
 the grass may as well be orange and the sky a light purple. Some might consider it quite psychedelic. It's our "normal", 
 but it happens to be very, very different to what normal folk see.
 
-Secondly: it's not a binary thing. Many people have a minor deficiency that manifests only in slightly-off home decor. 
-And there are various different types of deficiency, which boil down to basically which bits of your eyes are dodgy.   
+Secondly: it's not a binary thing, colourblind or not. Some people have a very minor deficiency that manifests only in 
+slightly-off home decor. And there are different types of deficiency, which boil down to basically which bits of your 
+eyes are dodgy. 
 
 There are a few "colour blind simulators" out there which purport to show you what colour blind people see - some work, 
 some don't. I know this because a simulator should be showing me personally a "normal view" and "colour deficient view" 
-which look identical - and some _don't_, even for the types of deficiency I know I have. That said, this perhaps serves 
-only to reinforce the fact that there is such a wide range of ways our eyes fail to work properly that any one given 
-simulator can only represent a proportion of The Afflicted actually perceive, so I won't name names or judge harshly.
+which look identical - and some _don't_, even for the types of deficiency I know I have. 
 
-This site for example works brilliantly for me: [colourblindawareness.org](http://www.colourblindawareness.org) - the 
-homepage has a lovely big vivid image of some pencils. And assuming it's not some subtle and cruel joke, the "sample 
-images" 1, 2 and 3 look _100% identical_ to me.
+That said, this perhaps serves only to reinforce the fact that there's such a wide range of ways our eyes fail to work 
+properly that any one given simulator can only represent a small proportion of what we "The Afflicted" actually perceive,
+so I won't name names or judge harshly.
 
-The 4th image though - wow. That's crazy. Those "tritanopes", wow, that's some world they go through, no? Whooo!
+[This site](http://www.colourblindawareness.org) for example works brilliantly for me - the homepage has a lovely big 
+vivid image of some colouring pencils. And assuming it's not some subtle and cruel joke, the "sample images" 1, 2 and 3 
+look _100% identical_ to me.
 
-That's a joke by the way. But, again assuming images 2 and 3 do look pretty nuts to most people, and the website's not a 
-wind-up, it bears repeating: 2 and 3 are normal to me. They look great! Warm, vivid, colourful images! But 4 does look 
-_properly bizarre_, and I'm forced to the conclusion that 2 and 3 look just as extreme to normal folk!
+The 4th image though - wow. That's crazy. Those "tritanopes", wow, that's some world they go through, no? Whoah!
+
+I'm only half kidding there, by the way. Image 4 really looks extreme to me, but - again assuming images 2 and 3 do also
+look pretty nuts to most people, and the website's not a weird mock-the-colourblind effort, it bears repeating: 2 and 3 
+are 100% normal to me - they look great! Warm, vivid, colourful images! But 4 is _properly bizarre_, and I'm forced to 
+the conclusion that 2 and 3 look just as extreme to normal folk!
+
+I've had conversations along the lines of "well, yellow does look pretty much the same as lime green doesn't it?" 
+Apparently not. And yes I have got actual lemons and limes mixed up before.
 
 ## Grumble Grumble
 
@@ -116,3 +123,11 @@ the blatant redundancy you may think!
 
 Phone a friend - remember colour blindness is a really common condition, with nearly 1 in 12 males affected to some 
 extent, so it's always worth asking around for feedback if you have any questions.
+
+## Is There a Cure?
+
+Not yet. There are some borderline scammy glasses which can help accentuate differences between colours in artificial 
+and arguably completely pointless ways, but they're not much different to wearing tinted sunglasses. At the end of the 
+day, if you can't see red properly, _you can't see red properly_, and making reds EVEN MORE RED won't help. 
+
+But who knows - one day we might find a fix, even if it's total nanobot eyeball reconstruction! Who wouldn't jump at that?
