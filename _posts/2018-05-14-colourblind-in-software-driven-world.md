@@ -126,6 +126,11 @@ the blatant redundancy you may think!
 Phone a friend - remember colour blindness is a really common condition, with nearly 1 in 12 males affected to some 
 extent, so it's always worth asking around for feedback if you have any questions.
 
+And a slight caveat to the above - I'm guilty of this myself, I assume if it's fine for me, it's fine, period - 
+remember there are different types of colour blindness, and where I struggle with red/green, others struggle with 
+blue/yellow. Be wary of building a whole colour scheme based on a nod from Dave from Billing and Accounts, Dave 
+doesn't speak for all of us!
+
 ## Is There a Cure?
 
 Not yet. There are some borderline scammy glasses which can help accentuate differences between colours in artificial 
