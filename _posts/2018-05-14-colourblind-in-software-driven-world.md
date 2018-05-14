@@ -24,7 +24,7 @@ of your own.
 
 ## What I See != What You See
 
-Most importantly: _the colour blind world is not black and white._ It's colourful, vivid, bright - as you'd expect, 
+Most importantly: _the colourblind world is not black and white._ It's colourful, vivid, bright - as you'd expect, 
 really, when the grass may as well be orange and the sky a light purple. Some might consider it quite psychedelic. It's 
 our "normal", but it happens to be very, very different to what normal folk see.
 
@@ -32,7 +32,7 @@ Secondly: it's not a binary thing, colourblind or not. Some people have a very m
 slightly-off home decor. And there are different types of deficiency, which boil down to basically which bits of your 
 eyes are dodgy. 
 
-There are a few "colour blind simulators" out there which purport to show you what colour blind people see - some work, 
+There are a few "colourblind simulators" out there which purport to show you what colourblind people see - some work, 
 some don't. I know this because a simulator should be showing me personally a "normal view" and "colour deficient view" 
 which look identical - and some _don't_, even for the types of deficiency I know I have. 
 
@@ -123,11 +123,11 @@ red" - even use 'O' and 'X' characters if your MS Paint skills aren't up to the 
 Tooltips for colour selection are great: hovering over a lime-green option and getting a "Lime green" tooltip is not 
 the blatant redundancy you may think!
 
-Phone a friend - remember colour blindness is a really common condition, with nearly 1 in 12 males affected to some 
+Phone a friend - remember colourblindness is a really common condition, with nearly 1 in 12 males affected to some 
 extent, so it's always worth asking around for feedback if you have any questions.
 
 And a slight caveat to the above - I'm guilty of this myself, I assume if it's fine for me, it's fine, period - 
-remember there are different types of colour blindness, and where I struggle with red/green, others struggle with 
+remember there are different types of colourblindness, and where I struggle with red/green, others struggle with 
 blue/yellow. Be wary of building a whole colour scheme based on a nod from Dave from Billing and Accounts, Dave 
 doesn't speak for all of us!
 
