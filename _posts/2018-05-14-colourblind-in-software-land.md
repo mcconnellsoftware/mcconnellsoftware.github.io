@@ -71,7 +71,7 @@ Sometimes though it's a bit of a pain:
   are variations of "green minus" or "soft green" anyway
    
 - photography post-processing: if it's more than converting to B&W or mucking about with brightness or contrast I just 
-  cannot risk turning face green and exposing myself to ridicule on Facebook
+  cannot risk inadvertently turning faces green and exposing myself to ridicule on Facebook
   
 - code syntax highlighting: it's quite _pretty_, I suppose, but no practical use whatsoever; genuine kudos to Jetbrains 
   for adding a "colourblind friendly" option to IntelliJ, it didn't help me though and made things less pretty so I 
@@ -90,8 +90,9 @@ None. It's rubbish, but mainly only mildly so. Next!
 
 Firstly: thanks for trying, and for thinking about us!
 
-Secondly: everything you ever do from this point on has to be black and white. "It's the only way to be sure" - Aliens, 
-1986. Just kidding. Colour's great, let's keep it!
+Secondly: everything you ever do from this point on has to be black and white. "It's the only way to be sure" - Aliens (1986).
+
+Just kidding. Colour's great, let's keep it!
 
 The single most important piece of advice I can think of: **don't rely on an ability to distingush colours _alone_ as a 
 signal** - use supplementary indicators: 
