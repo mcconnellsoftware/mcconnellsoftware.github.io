@@ -24,9 +24,9 @@ of your own.
 
 ## What I See != What You See
 
-Most importantly: _the colour blind world is not black and white._ It's colourful, vivid, bright - as you'd expect, really, when 
-the grass may as well be orange and the sky a light purple. Some might consider it quite psychedelic. It's our "normal", 
-but it happens to be very, very different to what normal folk see.
+Most importantly: _the colour blind world is not black and white._ It's colourful, vivid, bright - as you'd expect, 
+really, when the grass may as well be orange and the sky a light purple. Some might consider it quite psychedelic. It's 
+our "normal", but it happens to be very, very different to what normal folk see.
 
 Secondly: it's not a binary thing, colourblind or not. Some people have a very minor deficiency that manifests only in 
 slightly-off home decor. And there are different types of deficiency, which boil down to basically which bits of your 
@@ -94,7 +94,7 @@ Secondly: everything you ever do from this point on has to be black and white. "
 
 Just kidding. Colour's great, let's keep it!
 
-The single most important piece of advice I can think of: **don't rely on an ability to distingush colours _alone_ as a 
+The single most important piece of real advice I can give: **don't rely on an ability to distinguish colours _alone_ as a 
 signal** - use supplementary indicators: 
 
 - stick with a RAG rating for projects by all means, but use the letters R, A and G inside the Excel cells (a little 
@@ -102,11 +102,11 @@ signal** - use supplementary indicators:
 
 - use bold or italics for emphasis, or some other formatting device, _in addition to_ a jump to red text
 
-- line charts can use dotted, dashed, bold, solid lines creatively - and still using colour; more than 4 or 5 lines is 
+- line charts can use dotted, dashed, bold, solid lines creatively - and still in colour; more than 4 or 5 lines is 
 getting quite "busy" anyway...
 
 A useful rule of thumb: if you can print it or view it in monochrome, and it still "works", it's fine: if the dark grey 
-equates to on-track and the light grey to the more "sad-face emoji" type projects, that's perfectly OK, who cares if 
+equates to on-track projects and the light grey to the more "sad-face emoji" type projects, that's perfectly OK, who cares if 
 they were puce and fuchsia to start with!
 
 Avoid certain combinations, mainly red/green which are the most commonly mis-perceived colours. Thankfully the wider 
@@ -114,10 +114,11 @@ visual design community has apparently got together and decided that red text on
 something they want to take any further.
 
 If you're designing a UI that's going to see widespread use you could explore a "colourblind suitability review", but 
-really you should consider an accessibility review generally: there are far more serious visual impairments out there.
+really you should consider an accessibility review generally: there are far more serious visual impairments out there 
+and you'll do untold good to a bunch of appreciative users.
 
 "Ticks and crosses" is a safer visual metaphor for health/problems or pass/failure across the board than "green or 
-red" - even use O and X if your MS Paint skills aren't up to the challenge.
+red" - even use 'O' and 'X' characters if your MS Paint skills aren't up to the challenge.
 
 Tooltips for colour selection are great: hovering over a lime-green option and getting a "Lime green" tooltip is not 
 the blatant redundancy you may think!
