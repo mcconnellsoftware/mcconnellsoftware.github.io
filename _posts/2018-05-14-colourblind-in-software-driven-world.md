@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "Colourblind in Software Land"
+title:  "Colourblind in a Software Driven World"
 date:   2018-05-14 12:21:29 +0000
 tags: Misc
 ---
