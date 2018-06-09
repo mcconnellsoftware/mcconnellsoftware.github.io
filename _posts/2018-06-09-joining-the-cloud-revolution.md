@@ -97,17 +97,28 @@ involve are going to need a pretty special set of skills to get right. And I'm n
 application developers necessarily have, or - once the lustre of the shiny and deeply fashionable new technology 
 fades - actually really _want_.
 
+What do I mean by that? Simply that for many application developers, job satisfaction comes from being immersed in 
+a codebase; designing elegant, cleanly-coded classes or functions; choosing good processing algorithms or data 
+structures; implementing complicated calculations with a deft simplicity; protecting data from accidental abuse; 
+tracking down bugs with techniques honed from years of practice; choosing where to place logging outputs to allow 
+maximum clarity of forensics and monitoring. The list goes on, and of course I don't speak for anyone other than myself, 
+but I hope it's clear that _Things Developers Find Rewarding_ and _Things System Engineers Find Rewarding_ don't 
+necessarily overlap.  
+
+Application developers do of course need to design and build appropriately to their architecture: coding away, 
+oblivious to a generally distributed architecture, isn't really on.
+ 
 
 # Those Who Forget History...
 
 ...are famously condemned to repeat it. A lot of the container solution buzz right now reminds me of the J2EE, EJB 
 situation nearly 20 years ago. The Entity/Session bean implementation of early 2000s was heavily flawed - ain't hindsight 
-great - but much vaunted by the industry at the time, and humans nature being what it is, everyone in the Java ecosystem 
+great - but much vaunted by the industry at the time, and human nature being what it is, everyone in the Java ecosystem 
 soon became convinced that EJBs on fully fledged J2EE app servers was the only way to go. Servlets? Pah. All in for EJBs!
 
 So we all duly learned about EJBs. Chapter 1 of the Sun Microsystems guide pretty much warned us what was coming by 
 talking about all the roles involved: developers, deployers, configurers. More or less: get your team of 60 together 
-now folks, we've an application to build! Any my God they had the boilerplate XML to need it.
+now folks, we've an application to build! And my God: they had the boilerplate XML to need it!
 
 Long story short: over-complicated technology that most teams didn't fully understand or handle well, leading to even 
 simple CRUD apps being deployed in vastly over-architected distributed balls of mud that then ran like _utter 
@@ -116,7 +127,7 @@ sludge_ (so everyone moved to Tomcat and Spring instead, and lived happily ever 
 Containers are not EJBs; the comparison only works so far. But some of the risks apply: people focus on using Docker 
 and containers for their own sake, perhaps as a form of Resume Driven Development but more likely because we as a group
 just really do enjoy _playing_ with new technology and we'll often jump at the opportunity to do so - often losing sight
-though of the big picture: process efficiency and ease of handling very large scale swings in demand.    
+though of the big picture: process efficiency, and ease of handling large scale and great swings in demand.    
 
 
 # A Cambrian Explosion
@@ -134,9 +145,13 @@ tools" has emerged this week (anyone else remember XDoclet? If you need tools to
 doing it wrong...).
 
 Some predict, and I happen to agree, that whatever ends up "winning" is likely to be based on Kubernetes but wrapping it
-in a way that makes it _truly simple and accessible_ to the legions of pressured application developers. There is of 
-course a tension there: the more proprietary one company makes its "wrapper", the less "standard" it becomes, and 
-lock-in, non-standard offerings may struggle to compete for that reason. Frankly, I'm quite glad it's not my problem!
+in a way that makes it _truly simple and accessible_ to the legions of time-pressured application developers to whom 
+"secure-ftp helloworld.war to /home/produser/webapps on prod-server-emea-01" is the benchmark (and why not) for 
+acceptable deployment complexity and overhead.
+
+There is of course a tension there: the more proprietary one company makes its "wrapper", the less "standard" it 
+becomes, and lock-in, non-standard offerings may struggle to compete for that reason. Frankly, I'm quite glad it's not 
+my problem..!
 
 
 # Finishing Up
@@ -154,11 +169,13 @@ signs are:
 
 - it runs far more slowly than you all know, deep down, it really ought to
 
-- getting everything up and running and correctly communicating is difficult
+- getting everything even up and running OK, and correctly communicating from one component to another, is _difficult_
 
-- making simple "cross application" changes are inordinately expensive
+- making simple but nevertheless "across the whole application" level changes are inordinately expensive, e.g a new 
+field on a core class or entity
 
-- no-one can work out what's going on in terms of Request 123 making its way through your various components
+- no-one can work out what's going on in terms of Request 123 making its way through the various components because 
+the logging and tracing just isn't there
 
 Projects don't _finish_ on go-live day; in many ways that's just the beginning. Make sure you are building something 
 which can grow and change elegantly over 2, 5 or even 10 years.
@@ -167,4 +184,4 @@ Don't be fooled into thinking that just because many teams are choosing certain 
 better - sometimes simpler - alternatives!
 
 I think the "summary of my summary" is really: look after yourself in this brave new world, enjoy the genuinely 
-exciting new technologies but watch out for the pitfalls!
+exciting new technologies, but watch out for the pitfalls!
