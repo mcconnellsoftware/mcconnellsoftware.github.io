@@ -63,7 +63,9 @@ may or may not be carved in stone as "the requirement" but once you're there you
 
 - perhaps most significantly of all, it's like a detective story: often there's a single root cause for any given 
 misbehaving area, and hours, days and even _weeks_ of painstaking forensic analysis, experimentation and 
-evidence-gathering reveals exactly 'whodunnit'!
+evidence-gathering reveals exactly 'whodunnit'! It's no exaggeration to say some of these "eureka" moments have been the
+most satisfying of my career!
+
 
 # Where Should We Look?
 
