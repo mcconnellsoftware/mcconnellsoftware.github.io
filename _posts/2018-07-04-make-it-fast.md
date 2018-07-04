@@ -14,8 +14,8 @@ Let's face it: for those of us in the commercial world time to market is often c
 beat "Improve feature 1" in prioritisation decisions.
 
 But right now I'm not looking to consider pragmatism vs purism, or gold-plating vs turd-polishing (!) - we all know the 
-trade-offs that happen in real life: decisions are made; stuff gets done in way too much hurry; junior devs don't get 
-the support they need; new and unproven tech stacks are inflicted - how hard can it be eh...?
+trade-offs that happen in real life: decisions are made; stuff gets done in way too much of a hurry; junior devs don't get 
+the support they need; new and unproven tech stacks are inflicted - how hard can it be?
 
 I'm writing today instead to celebrate the sheer unalloyed glory of a successful performance deep-dive and fix - to 
 revel in the purity of such a task, and exult in the unqualified satisfaction that comes from cutting tens, hundreds 
@@ -41,10 +41,11 @@ So, groundwork done: you have unlimited time to find someone else's mistake. Hap
 Main reasons this kind of task can be deeply rewarding, then:
 
 - it's a great chance to make your team's product unambiguously - and measurably - _better_, most likely in a area 
-of enough importance to justify its priority being higher than adding new features or fixing other known bugs 
+of enough importance to justify its priority being higher than adding new features or fixing other known bugs in the 
+first place
 
-- there's no politics or negotiation to consider (if there is, your organisation may be a bit broken) - or if there is
-it's the net positive of announcing the "wins" (be wary of announcing the non-wins!) to the wider team
+- there are no politics or negotiations to consider (if there is, your organisation may be a bit broken) - but there is
+the tremendous credit to be gained by announcing the "wins" (be wary of announcing the non-wins!)
 
 - it's an easy sort of task to become deeply immersed in; hours can pass while you sit sifting logs, correlating 
 timings and frequencies against code, trying to build a narrative of _what's really happening_; this sort of state is 
@@ -55,10 +56,10 @@ you achieve this state tend to be ones you enjoy more
 build new ones too if you're lucky!
 
 - by definition if you're investigating an area then it's not well understood (by you, anyway - yet) so you'll 
-inevitably end up learning a lot more about that area - and that's no bad thing
+inevitably end up learning a lot more about that area - and that's never a bad thing
 
-- you probably know when you're done; getting an operation down from 1,500ms to 30ms may or may not be carved in stone 
-as "the requirement" but once you're there you know you've nailed it
+- you know when you're done, much like a sudoku or a crossword puzzle; getting an operation down from 1,500ms to 30ms 
+may or may not be carved in stone as "the requirement" but once you're there you _know_ you've nailed it
 
 
 # Where Should We Look?
@@ -85,13 +86,13 @@ production to get extra log instrumentation into play
 
 With the above you have all you need to conduct your experiments: add logging till you know exactly what is happening, 
 write scripts to extract meaningful patterns if your volumes prohibit intuition alone from gleaning the key facts, and 
-really just keep iterating until you know what's taking place.
+really just keep iterating until you _know_ what's taking place.
 
 
 # Macro vs Micro Issues
 
-Sometimes your issue is a tiny bad SQL query running in a component. Sometimes it's a perfectly good SQL query but 
-it's being run by 40 threads in 15 parallel application instances. Be mindful of this difference.
+Sometimes your issue is a tiny but Very Bad SQL query running in a component. Sometimes it's a perfectly _good_ SQL 
+query but it's being run by 40 threads in 30 parallel application instances. Be mindful of this difference.
 
 (Like I said, it's still always the database...)
 
@@ -119,9 +120,9 @@ Long story short: yeah it was the database. A dumb ORM interaction with the data
 one or more Company objects, and those had Location objects - and the ORM was doing what dumb ORMs do unless you advise
 them otherwise and fetching the child objects _one by one by ID_. We quickly measured something like:
 
-1 query to find the 2000 Contact entries
-2000 queries to find the Company entries one by one 
-2000 queries to find the Location entries one by one
+- 1 query to find the 2000 Contact entries
+- 2000 queries to find the Company entries one by one 
+- 2000 queries to find the Location entries one by one
 
 The irony was the page didn't even use the results from those other 4000 queries: the code loaded the entire object 
 graph, ignored most of it, and spent many minutes doing so. We replaced it with a simple hand-crafted SQL query and a 
@@ -135,7 +136,8 @@ _releasing the handbrake before putting your foot down_!
 
 # Some Further Reading
 
-It's not really super relevant but _Zen and the Art of Motorcycle Maintenance_ has some interesting parallels to 
-performance tuning and debugging in general: the focus one finds in trying to determine root causes, the need to know 
-one's tools and develop a wider understanding of the overall system/engine. It's a classic - not the easiest read but 
-not the hardest - and well worth a read for anyone with a slightly philosophical bent!
+It's maybe not _super_ relevant but the novel _Zen and the Art of Motorcycle Maintenance_ has some interesting parallels to 
+performance tuning and debugging in general: the focus one finds in trying to determine root causes, the systematic 
+and methodical approach, the need to know one's tools and to develop a wider understanding of the overall system/engine 
+in order to effect a correct repair. It's an acknowledged classic and well worth a read for anyone with even a slightly 
+philosophical bent; it's not an auto-repair manual I should repeat, it's a _novel_...
