@@ -61,6 +61,9 @@ inevitably end up learning a lot more about that area - and that's never a bad t
 - you know when you're done, much like a sudoku or a crossword puzzle; getting an operation down from 1,500ms to 30ms 
 may or may not be carved in stone as "the requirement" but once you're there you _know_ you've nailed it
 
+- perhaps most significantly of all, it's like a detective story: often there's a single root cause for any given 
+misbehaving area, and hours, days and even _weeks_ of painstaking forensic analysis, experimentation and 
+evidence-gathering reveals exactly 'whodunnit'!
 
 # Where Should We Look?
 
@@ -92,7 +95,8 @@ really just keep iterating until you _know_ what's taking place.
 # Macro vs Micro Issues
 
 Sometimes your issue is a tiny but Very Bad SQL query running in a component. Sometimes it's a perfectly _good_ SQL 
-query but it's being run by 40 threads in 30 parallel application instances. Be mindful of this difference.
+query but it's being run by 40 threads in 30 parallel application instances. Be mindful of this difference: look at 
+the code but be aware of the wider architecture.
 
 (Like I said, it's still always the database...)
 
@@ -139,5 +143,7 @@ _releasing the handbrake before putting your foot down_!
 It's maybe not _super_ relevant but the novel _Zen and the Art of Motorcycle Maintenance_ has some interesting parallels to 
 performance tuning and debugging in general: the focus one finds in trying to determine root causes, the systematic 
 and methodical approach, the need to know one's tools and to develop a wider understanding of the overall system/engine 
-in order to effect a correct repair. It's an acknowledged classic and well worth a read for anyone with even a slightly 
-philosophical bent; it's not an auto-repair manual I should repeat, it's a _novel_...
+in order to effect a correct repair.
+
+It's an acknowledged classic and well worth a read for anyone with even a slightly philosophical bent; it's not an 
+auto-repair manual I should repeat, it's a _novel_...
