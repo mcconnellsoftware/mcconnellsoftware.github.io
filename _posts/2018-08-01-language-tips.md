@@ -58,8 +58,8 @@ trundle round the streets that's fine, everyone wins!
 A _tenet_ is a principle or belief: a central _tenet_ of good coding is that you don't just copy/paste a method from 
 one module into another, for example, and obviously none of has ever done that eh, HA HA, IMAGINE THAT. 
 
-However: if I owned a bunch of Silicon Valley apartments and rented them out to coders, any of the _tenants_ in those 
-properties that violated that simple _tenet_ of engineering food practice? Well - they'd be out on the streets, pronto. 
+However: if I owned a bunch of Silicon Valley apartments and rented them out to coders, and any of the _tenants_ in those 
+properties violated that simple _tenet_ of engineering food practice? Well! They'd be out on the streets, pronto! 
 We're not having that sort of thing. We're not _animals_.
 
 
