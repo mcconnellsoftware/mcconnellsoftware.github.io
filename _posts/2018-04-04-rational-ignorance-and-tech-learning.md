@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "Rational Ignorance and Technology Learning Challenges"
+title:  "Apr-2018 - Rational Ignorance and Technology Learning Challenges"
 date:   2018-04-04 12:21:29 +0000
 tags: Misc
 ---

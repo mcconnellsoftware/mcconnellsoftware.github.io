@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "Joining the Cloud Revolution"
+title:  "Jun-2018 - Joining the Cloud Revolution"
 date:   2018-06-09 12:21:29 +0000
 tags: Misc
 ---
