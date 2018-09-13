@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "Sep-2018 - Solution Design Fundamentals"
+title:  "Sep-2018 - Building Blocks of Enterprise Solution Design"
 date:   2018-09-13 12:21:29 +0000
 tags:   Design
 ---
@@ -14,38 +14,40 @@ size.
 
 All of the areas we'll explore here really need to be handled - but some of them, in some organisations, will be a "given",
 with no project-specific thought needed whatsoever. If _Thou Shalt Use Git and GitHub_, great, one less thing to worry
-about. But still be mindful of this as a topic for consideration, and one which - this time - has a super-easy answer. 
+about. But still be mindful of this as a topic for consideration, just one which - this time - has a super-easy answer. 
 In the future that may not be so.
 
 Don't worry about having to nail all of this 100% up-front, or about executing/solving all of it on your own - if you're 
 working on an enterprise project, part of working effectively means delegating and distributing tasks, ideally to people
-with a keen interest in that task. You don't need to write a 300 page "Solution Design Spec" either - your documentation
-approach is your own to choose, but much of what we discuss here could be covered on a Wiki page if it even needs that.
+with a keen interest in that task. You don't need to write a 300 page "Solution Design Spec" either. Your documentation
+approach is your own to choose, but much of what we discuss here could be covered on a Wiki page - if it even needs that.
 
 Some areas can be deferred - making decisions may not be possible up-front, for technical or local-expert-availability 
 reasons, or various others.
 
-To reiterate: working all of this out can - _should_ - be part of the project if it's anything other than immediately 
-clear. It's not "work this out _then_ start the project firing pistol...".
+To reiterate: working all of this out should be a concrete, resourced, part of the project if it's anything other than 
+immediately clear. It's not a case of work all of this tricky stuff out and _then_ fire the project starting pistol...
 
-A general approach worth considering here is one from the famous
+A general approach worth adopting is one from the famous
 [7 Habits of Highly Effective People](https://www.amazon.co.uk/Habits-Highly-Effective-People-Powerful-ebook/dp/B00GOZV3TM) - "Begin 
 With The End In Mind". Simply put it means establishing early on a clear picture of what your eventual outcome looks like. 
 For tech solution design, breaking that down into some manageable constituent parts is a really good idea. 
 Can I really picture the Backup solution? The DR solution? As in, can I sit at my desk, close my eyes, and imagine _in 
-detail_ what the shape of that will be? If so, great - you've probably got that covered. If not though, don't worry, and
-be pleased that you've identified a part of your solution that you can tackle early on and assure good assimilation with
-everything - not a bolt on a the end when it's too late for an elegant option.    
+detail_ what the shape of that will be? 
 
-I highly recommend Stephen Covey's book, by the way; its style may be a little dated and idiosyncratic now but the core ideas, the seven 
-"habits", have a lot to commend them.   
+If so, great - you've probably got that covered. If not though, don't worry, and be pleased that you've identified a 
+part of your solution that you can tackle early on to ensure a good level of assimilation - not an ugly bolt-on at the 
+end when it's too late for a more elegant option.    
+
+I highly recommend Stephen Covey's book, by the way; its style may be a little dated now and somewhat idiosyncratic but 
+the core ideas, the seven "habits", have a lot to commend them.   
 
 So - let's start to consider the key solution design areas we need to account for.
 
 
 # Solving the Core Problem
 
-I've stated earlier that this isn't the only thing to focus on - but obviously it's a pretty important one to include, 
+I've stated earlier that this isn't the only thing to focus on - but obviously it _is_ a pretty important one to include, 
 so let's get it out of the way!
 
 Whether it's a fairly pure computation with a known set of inputs, or whether it's about connecting existing systems, 
@@ -76,8 +78,7 @@ Similarly you can justify pushing back against certain constraints - not least d
 This kind of conversation, by the way, can be a good way to raise topics which might not even have occurred to senior 
 management: they might know they want a new Strategic Widget Management Solution and they want it within the next 6 
 months and let's have no arguments about that - but raising the lifespan topic might be one way to register the possible 
-false economy of rushing through mission critical software projects without enough time or budget to do them "properly", 
-potentially even with some practice runs.
+false economy of rushing through mission critical software projects without enough time or budget to do them "properly".
 
 It's also the sort of conversation which, if _you_ don't raise it, may not ever happen. And that's a missed opportunity
 all round.
@@ -85,7 +86,7 @@ all round.
 
 # Key Risks
 
-All projects have risks - some major, some minor. Some tech related, some people related, some timing related. It's a 
+All projects have risks - some major, some minor. Some tech related, some people related, some market related. It's a 
 good idea to brainstorm your risks early on and classify them by impact (low, medium, high) and likelihood (again, low, 
 medium, high is a good starting point).
 
@@ -93,7 +94,7 @@ Usual brainstorming rules apply - think of as many as you can: some will be thro
 will stick, that's fine!
 
 Clearly _high impact, high likelihood_ risks are worth factoring fully into your project - can they be mitigated? Because 
-they're _probably going to hurt you_.
+_they're probably going to hurt you, a lot, if you don't_.
 
 For technology-risk and difficult logic/computation problems consider prototypes and proof-of-concept (POC) work. Nailing
 your big concerns early allows you to confront the hard challenges - and if necessary adjust course before you're too 
@@ -131,12 +132,12 @@ Things to consider:
 
 - which version control system to use
 - which build/CI system to use
-- extracting your source code and compiling it
+- extracting your source code and compiling it - with failure alerts
 - pulling in dependencies, whether from external or internal sources
 - how you'll update your dependency versions - and you should absolutely prefer _frequent, slightly-painful_ updates 
 to _occasional and brutal_ ones!
-- running automated tests
-- scheduling builds on commit, and more formal "we're ready to build the official February Release" 
+- running automated tests - again with failure alerts
+- scheduling builds on commit, and more formal "we're ready to build the official February Release" builds
 - automatic deployments to an environment - or environments, plural
 
 
@@ -147,8 +148,8 @@ In the olden days, you would have fairly orthogonal choices:
 - what would you like to use, Java/Linux or DotNet/SQLServer?
 - how will you host it - on-prem? 3rd party datacentre?
 
-Now though there are a frankly bewildering array of tech stack choices, and some - such as AWS - combine to a fair 
-extent stack choices with hosting.
+Now though there are a frankly bewildering array of tech stack choices, and sometimes, some of them - such as AWS - 
+combine to some extent the stack choices with the hosting choices, they're less clear-cut concerns.
 
 The aim of this article is not to offer suggestions on hosting or stack choices, but to raise the considerations which 
 may apply and which a solution designer must consider:
@@ -161,12 +162,12 @@ independent nodes?
 
 - how will this work with your growth strategy? Can you go from 1 x EMEA to 2, to 3, to 10, as needed?
 
-- is all of the above way beyond your wildest needs and you just need a reasonably well specc-ed web server and a 50Gb 
+- is all of the above way beyond your wildest needs and you just need a reasonably well spec-ed web server and a 50Gb 
 database but all the cool kids are talking Kubernetes so you don't want to look, y'know, _lame_?
 
 - stackwise do you want to stick with languages and components you know - no-one got fired for Java/Spring/Oracle! - or 
-try something more "avant-garde"? If the latter, is your project really one you want to take that risk with - or is 
-there a smaller, safer, less-mission-critical one that might be more suitable?
+try something more "avant-garde"? If the latter, is your current project really the one you want to take that risk 
+with - or is there a smaller, safer, less-mission-critical one that might be more suitable?
 
 - do you need a Big Data solution? Really? You're sure your data can't fit on a decent mobile phone with an SD card 
 and give you all the results you need with a cheeky properly-indexed SELECT...? Well, if you say so!
@@ -236,7 +237,7 @@ diverge is responsible for their own problems but otherwise welcome to do so.
 
 You might think this an odd one to consider at a solution design level: what to do with exception is usually an 
 interview question about checked-or-unchecked. But it can be a significant architectural question: if your system 
-is 4th in a chain of systems all contributing to "Organisation Event XXX Is Happening" and you are the one whose 
+is 4th in a chain of systems all contributing to "Organisation Event XXX Is Happening" and yours is the one whose 
 database chooses to go pear-shaped, what should happen?
 
 Maybe you are a purely UI operation in which case a user-friendly - but security-aware - error message may be 
@@ -251,7 +252,7 @@ overburdened by other challenges, but the sooner you confront it the better - an
 
 # Environments
 
-It can be natural to just consider "production" - how will everything work in production? And sure, that's the ultimate 
+It can be natural to just consider production - how will everything work _there_? And sure, that's the ultimate 
 target environment, so why not. But it's also most likely the last environment you'll get to: you'll need to go through
 dev, test, maybe others, first.
 
@@ -266,9 +267,9 @@ What environments do you want to have - and what will budgets cover?
 Can you design something with "on demand" environments or must they be procured months in advance so start work on the 
 4 year environment plan right this moment?
 
-What level of prod-like should each environment be in terms of size and resources?
+What level of "prod-like" should each environment be in terms of size and resources? (At least one should be "very")
 
-Will production data be available to "prod refresh" when needed? Must it be obfuscated for security or privacy reasons?
+Will production data be available to load elsewhere when needed? Must it be obfuscated for security or privacy reasons?
 
 Will your team be DevOps for all this, or will a dedicated team assist? The more environments and moving parts the 
 larger the task.
@@ -279,19 +280,23 @@ your team.
 
 # Testing Strategy
 
-A good testing strategy will have a number of layers: unit testing, integration testing (i.e. testing with real message 
-queues, databases, whatever), local-run testing, end user testing, testing-in-prodlike-ecosystem testing (i.e. testing 
-alongside other - real - solutions in your ecosystem, if apt).
+A good testing strategy will have a number of layers:
+
+- unit testing 
+- integration testing (i.e. testing in isolation but with "real" message queues, databases, whatever) 
+- local-run testing 
+- end user testing 
+- testing-in-prodlike-ecosystem testing (i.e. testing alongside other - real - solutions in your ecosystem, if apt)
 
 All of these are distinct testing techniques: decide which ones do, or should, apply; ideally as many as possible. Each
 has value and although as you work left to right they go from "fast and cheap" to "complicated and expensive", there 
-are things you can can in full-ecosystem testing that more left-hand methods simply cannot account for.
+are things you can discover in full-ecosystem testing that more left-hand-side methods simply cannot account for.
 
-Consider whether you need a test team, or whether your area has an existing team of test specialists you can leverage; 
+Consider whether you need a test team, or whether your area has an existing team of test specialists you can bring in; 
 automated testing is only ever a part of an integrated test programme. Often test teams are overlooked - "we'll just get
 the developers to test it" - but this is often a serious miscalculation and a truly false economy: for one thing, 
 developers you're asking to do testing are spending time Not Developing Software, and for another it's often something 
-they've little interest in, and little real talent for - it's simply a task to get through..  
+they've little interest in, and have equally little real talent for - it's simply a task to get through... 
 
 
 # Security
@@ -300,7 +305,8 @@ Security cannot be an afterthought in this day and age. Security needs will vary
 whether your project is internal-only or outward-facing but the need for rigorous security practice and "Defence in 
 Depth" security planning has never been greater.
 
-Things to consider, meaning satisfy yourself that some area in your organisation is actively dealing with, include:
+Things to consider, meaning satisfy yourself that some area in your organisation _with adequate expertise_ is actively 
+dealing with, include:
 
 - network security
 - static code analysis for any mistakes you're making in your code
@@ -313,8 +319,8 @@ identifiable information and payment card information - and watch your logs, don
 - ensuring your customers never see stack traces or server error messages which may reveal more about the innards of 
 your solution than is wise
 
-Different organisations will hopefully have their own programmes here, you're unlikely to have to invent your own from 
-scratch - but you do need to take responsibility for adopting and embracing security practices. 
+Organisations will almost certainly have their own programmes here, you're unlikely to have to invent your own entirely
+from scratch - but you do need to take responsibility for adopting and embracing security practices. 
 
 
 # Logging, Traceability and Analytics
@@ -326,7 +332,8 @@ produce reports, dashboards, charts of behaviours etc in more or less real time 
 and worth an article in its own right!
 
 As with other areas there is no one-size-fits-all to recommend here: but do think about this carefully, not as an 
-afterthought.
+afterthought. Get some quick guidelines together for your developers: capture key stages and processes, capture key 
+timings "\[Order 56789\] DB save completed OK in 1234ms".
 
 
 # Executing Releases
@@ -368,12 +375,12 @@ Darling of the Week.
 Consider:
 
 - data backups have to be taken, maybe daily/hourly, maybe always-backing-up is part of your database
-- test your restore strategy
+- _test your restore function - regularly!_
 - spend time designing around "what if this bit fails" scenarios: components fail, hardware and software, and some 
 failures can be well tolerated with some forethought
 - Disaster Recovery - it does happen, data centres do suffer outages; a solution spanning at least a couple of regional 
 data centres is fairly easily achievable these days - and again, _test_ your DR: a plan that can't be tested a couple 
-of times a year is not a great plan to be blunt
+of times a year is not a great plan, to be blunt
 
 
 # Weighing It All Up
@@ -383,20 +390,20 @@ overwhelming. Usually people asked to produce solution designs will have some fa
 network of colleagues to reach out to - they'll already _know_ what the lie of the land is with many facets of their 
 task.
 
-And newcomers to an organisation, brought in specifically for their solution design expertise, will likely have their 
-own track record to build upon - this type of work gets easier the more you do it, and becomes second nature. And 
-although there are big differences between large organisations there's often a real similarity too, especially among 
-firms in the same industry space.
+And newcomers to an organisation, brought in specifically for their solution design expertise, will likely have an 
+existing track record to build upon - this type of work gets easier the more you do it. And although there are big 
+differences between large organisations there's often a real similarity too, especially among firms in the same 
+industry space.
 
 All that said, even for experienced developers and designers, a major project with a bunch of new variables - technology, 
-constraints, whatever - can be a daunting prospect when one's reputation - and career progress - is at stake. And so 
+constraints, whatever - can be a daunting prospect when one's reputation (and career progress!) is at stake. And so 
 the best advice remains, as with any significant undertaking: 
 
 - break it down into small tasks
-- tackle the smaller challenges systematically
-- delegate, and use the resources of your team
+- tackle those smaller challenges systematically
+- delegate, and use the resources of your team - bonus points for lining up tasks with people who'll be excited to work on them
 - set small goals and keep moving forwards
-- make a point of asking for help, advice, feedback
+- make a point of asking for help, advice, feedback - even go so far as to build such "checkpoints" into your plans
 - get buy-in from your managers and stakeholders
 - build time into the project plan for all the activities necessary - and be realistic
 
