@@ -5,15 +5,14 @@ date:   2018-09-13 12:21:29 +0000
 tags:   Design
 ---
 **Coming up with a solution design fit for use in large organisations can be a big ask - but breaking it down and 
-spending time planning your approach systematically can help you design software which will succeed at enterprise 
-scale.**
+spending time planning your approach systematically will help you design solutions that scale to enterprise level.**
 
-It's natural, when asked to start work on a new project, to focus on one particular area: _how to solve the main problem_.  
+It's natural, when asked to start work on a new project, to focus on one particular area: _how to solve the core problem_.  
 
 But a Senior Developer or Solution Designer should be contemplating far more than this for any project of reasonable 
-scale.
+size.
 
-All of the areas discussed here really need to be handled - but some of them, in some organisations, will be a "given",
+All of the areas we'll explore here really need to be handled - but some of them, in some organisations, will be a "given",
 with no project-specific thought needed whatsoever. If _Thou Shalt Use Git and GitHub_, great, one less thing to worry
 about. But still be mindful of this as a topic for consideration, and one which - this time - has a super-easy answer. 
 In the future that may not be so.
@@ -101,6 +100,16 @@ your big concerns early allows you to confront the hard challenges - and if nece
 committed (see: Fallacy of Sunk Costs).
 
 
+# Enterprise Architecture and Policy
+
+Your organisation may have stringent policies and directives regarding technology choices, tooling, dependency 
+management, security, identity and access management, hosting, resiliency, backups and DR, outward-facing websites - 
+and others. 
+
+If so it's incumbent upon you as a solution designer to comply with these. Some will help you, some may feel like a 
+hindrance - and that's the nature of the game, for better or worse. 
+
+
 # Version control, CI and Building
 
 In enterprise environments much of this will often be pre-determined; architecture and standards groups may have already 
@@ -131,28 +140,66 @@ to _occasional and brutal_ ones!
 - automatic deployments to an environment - or environments, plural
 
 
-# Development Tools and Standards
+# Tech stack and Physical Deployment Architecture
 
-IDEs, text editors, coding standards - no project is really underway until the team's had a really good fight about 
-this kind of stuff! Eclipse vs VIM, tabs vs spaces, where to put one's { and } and all that. Marvellous fun. And 
-Windows/Mac/Linux developer OS of course...
+In the olden days, you would have fairly orthogonal choices:
 
-Again corporate decisions may reign supreme, but if not then please consider truly how important a "one size fits all" 
-tooling ecosystem really is. If blessing the use of anything-goes as long as the build - and test suites - remain in 
-their happy places avoids religious tooling wars, great. Perhaps define a "preferred" tool set and anyone wishing to 
-diverge is responsible for their own problems but otherwise welcome to do so.
+- what would you like to use, Java/Linux or DotNet/SQLServer?
+- how will you host it - on-prem? 3rd party datacentre?
+
+Now though there are a frankly bewildering array of tech stack choices, and some - such as AWS - combine to a fair 
+extent stack choices with hosting.
+
+The aim of this article is not to offer suggestions on hosting or stack choices, but to raise the considerations which 
+may apply and which a solution designer must consider:
+
+- what do you see your end geographical architecture being - deployments in US, EMEA and APAC? Perhaps multiple 
+deployments in one or more of those regional hubs?
+
+- what do you need from your database with regard to deployments - global replication, or distinct sharding with highly
+independent nodes?
+
+- how will this work with your growth strategy? Can you go from 1 x EMEA to 2, to 3, to 10, as needed?
+
+- is all of the above way beyond your wildest needs and you just need a reasonably well specc-ed web server and a 50Gb 
+database but all the cool kids are talking Kubernetes so you don't want to look, y'know, _lame_?
+
+- stackwise do you want to stick with languages and components you know - no-one got fired for Java/Spring/Oracle! - or 
+try something more "avant-garde"? If the latter, is your project really one you want to take that risk with - or is 
+there a smaller, safer, less-mission-critical one that might be more suitable?
+
+- do you need a Big Data solution? Really? You're sure your data can't fit on a decent mobile phone with an SD card 
+and give you all the results you need with a cheeky properly-indexed SELECT...? Well, if you say so!
+
+Some notes of caution:
+
+- don't get carried away with a what-can-we-include mindset. Prefer what-can-we-leave-out. Keep things as simple as 
+possible while it all still works. Every component that's a block with arrows coming in and going out in a beautiful 
+masterpiece of a system diagram is a component in a real life production system (and dev, test, etc) with bugs, setup 
+and maintenance costs, communication overheads, release overheads, etc
+
+- the network is still _by orders of magnitude_ the slowest part of your solution compared to processor cost, memory 
+access cost, and local storage cost: micro-services are very much in vogue at this point in mid-2018 but the cost of 
+parcelling objects into JSON bundles and chucking them over the network for "processing" is HUGE compared to in-process
+handling - consider any network transits a terribly poor relation, to be avoided except when overwhelmingly justifiable
+
+- how will you handle profiling and monitoring, often the last thing you think about when starting out with, in 
+particular, an unfamiliar tech stack - and which only becomes a pressing need when production problems arise 
+
+- how will your choices impact your team in terms of training and hiring? Will a rapid re-skilling exercise be needed, 
+and is there time and budget? Are there candidates in your area with these skills or are you plumping for bleeding edge 
+tech and you'll opt to build skills rather than buy them? 
+
+- building to an unfamiliar tech stack is a significant risk, and you must actively address this
 
 
-# Logging, Traceability and Analytics
+# Local Run Capability
 
-The benefits of well implemented logging are tremendous. Not only having the forensic capability to work out what went 
-wrong with Customer 12345's order ID 56789 across 12 different microservices and the inherent detective work therein, 
-but being able to use products like Splunk - which is _truly brilliant_ - to query logs methodically and easily, and 
-produce reports, dashboards, charts of behaviours etc in more or less real time is quite a game-changing capability - 
-and worth an article in its own right!
-
-As with other areas there is no one-size-fits-all to recommend here: but do think about this carefully, not as an 
-afterthought.
+The ability to run applications and components locally is a massive boost to productivity: try to design your solutions 
+to support this. _Some choices will preclude it._ Debugging in a decent IDE still offers insights that cannot be 
+matched with black-box running-in-QA processes, although remote-debug is a close second. The benefits of letting 
+developers explore and experiment with impunity cannot be over-stated. This applies to both "build" and "maintenance" 
+stages of a project's lifecycle.
 
 
 # Solution Sizing
@@ -171,6 +218,18 @@ build in contingency, by a factor of _at least_ 2 - 100% difference, not 10%.
 And have a concrete plan for growth - more compute power? More storage? If you're starting with a product catalog of 
 1,000 items marketed in one country alone but you know you plan to roll out _globally_ with a catalog of 1,000,000 items 
 you need a plan beyond just buying more RAM and a bigger SSD.  
+
+
+# Development Tools and Standards
+
+IDEs, text editors, coding standards - no project is really underway until the team's had a really good fight about 
+this kind of stuff! Eclipse vs VIM, tabs vs spaces, where to put one's { and } and all that. Marvellous fun. And 
+Windows/Mac/Linux developer OS of course...
+
+Again corporate decisions may reign supreme, but if not then please consider truly how important a "one size fits all" 
+tooling ecosystem really is. If blessing the use of anything-goes as long as the build - and test suites - remain in 
+their happy places avoids religious tooling wars, great. Perhaps define a "preferred" tool set and anyone wishing to 
+diverge is responsible for their own problems but otherwise welcome to do so.
 
 
 # Error Handling
@@ -258,6 +317,18 @@ Different organisations will hopefully have their own programmes here, you're un
 scratch - but you do need to take responsibility for adopting and embracing security practices. 
 
 
+# Logging, Traceability and Analytics
+
+The benefits of well implemented logging are tremendous. Not only having the forensic capability to work out what went 
+wrong with Customer 12345's order ID 56789 across 12 different microservices and the inherent detective work therein, 
+but being able to use products like Splunk - which is _truly brilliant_ - to query logs methodically and easily, and 
+produce reports, dashboards, charts of behaviours etc in more or less real time is quite a game-changing capability - 
+and worth an article in its own right!
+
+As with other areas there is no one-size-fits-all to recommend here: but do think about this carefully, not as an 
+afterthought.
+
+
 # Executing Releases
 
 This is a really worthwhile one to think about early on - because if you don't make clear plans up-front you risk 
@@ -305,79 +376,28 @@ data centres is fairly easily achievable these days - and again, _test_ your DR:
 of times a year is not a great plan to be blunt
 
 
-# Tech stack and Physical Deployment Architecture
-
-In the olden days, you would have fairly orthogonal choices:
-
-- what would you like to use, Java/Linux or DotNet/SQLServer?
-- how will you host it - on-prem? 3rd party datacentre?
-
-Now though there are a frankly bewildering array of tech stack choices, and some - such as AWS - combine to a fair 
-extent stack choices with hosting.
-
-The aim of this article is not to offer suggestions on hosting or stack choices, but to raise the considerations which 
-may apply and which a solution designer must consider:
-
-- what do you see your end geographical architecture being - deployments in US, EMEA and APAC? Perhaps multiple 
-deployments in one or more of those regional hubs?
-
-- what do you need from your database with regard to deployments - global replication, or distinct sharding with highly
-independent nodes?
-
-- how will this work with your growth strategy? Can you go from 1 x EMEA to 2, to 3, to 10, as needed?
-
-- is all of the above way beyond your wildest needs and you just need a reasonably well specc-ed web server and a 50Gb 
-database but all the cool kids are talking Kubernetes so you don't want to look, y'know, _lame_?
-
-- stackwise do you want to stick with languages and components you know - no-one got fired for Java/Spring/Oracle! - or 
-try something more "avant-garde"? If the latter, is your project really one you want to take that risk with - or is 
-there a smaller, safer, less-mission-critical one that might be more suitable?
-
-- do you need a Big Data solution? Really? You're sure your data can't fit on a decent mobile phone with an SD card 
-and give you all the results you need with a cheeky properly-indexed SELECT...? Well, if you say so!
-
-Some notes of caution:
-
-- don't get carried away with a what-can-we-include mindset. Prefer what-can-we-leave-out. Keep things as simple as 
-possible while it all still works. Every component that's a block with arrows coming in and going out in a beautiful 
-masterpiece of a system diagram is a component in a real life production system (and dev, test, etc) with bugs, setup 
-and maintenance costs, communication overheads, release overheads, etc
-
-- the network is still _by orders of magnitude_ the slowest part of your solution compared to processor cost, memory 
-access cost, and local storage cost: micro-services are very much in vogue at this point in mid-2018 but the cost of 
-parcelling objects into JSON bundles and chucking them over the network for "processing" is HUGE compared to in-process
-handling - consider any network transits a terribly poor relation, to be avoided except when overwhelmingly justifiable
-
-- how will you handle profiling and monitoring, often the last thing you think about when starting out with, in 
-particular, an unfamiliar tech stack - and which only becomes a pressing need when production problems arise 
-
-- how will your choices impact your team in terms of training and hiring? Will a rapid re-skilling exercise be needed, 
-and is there time and budget? Are there candidates in your area with these skills or are you plumping for bleeding edge 
-tech and you'll opt to build skills rather than buy them? 
-
-- building to an unfamiliar tech stack is a significant risk, and you must actively address this
-
-
-# Local Run Capability
-
-The ability to run applications and components locally is a massive boost to productivity: try to design your solutions 
-to support this. _Some choices will preclude it._ Debugging in a decent IDE still offers insights that cannot be 
-matched with black-box running-in-QA processes, although remote-debug is a close second. The benefits of letting 
-developers explore and experiment with impunity cannot be over-stated. This applies to both "build" and "maintenance" 
-stages of a project's lifecycle.
-
-
-# Enterprise Architecture and Policy
-
-Your organisation may have stringent policies and directives regarding technology choices, tooling, dependency 
-management, security, identity and access management, hosting, resiliency, backups and DR, outward-facing websites - 
-and others. 
-
-If so it's incumbent upon you as a solution designer to comply with these. Some will help you, some may feel like a 
-hindrance - and that's the nature of the game, for better or worse. 
-
-
 # Weighing It All Up
 
 You might read all this and think: wow - how does anyone ever actually implement anything? And it can seem a little 
-overwhelming. 
+overwhelming. Usually people asked to produce solution designs will have some familiarity with the organisation and a 
+network of colleagues to reach out to - they'll already _know_ what the lie of the land is with many facets of their 
+task.
+
+And newcomers to an organisation, brought in specifically for their solution design expertise, will likely have their 
+own track record to build upon - this type of work gets easier the more you do it, and becomes second nature. And 
+although there are big differences between large organisations there's often a real similarity too, especially among 
+firms in the same industry space.
+
+All that said, even for experienced developers and designers, a major project with a bunch of new variables - technology, 
+constraints, whatever - can be a daunting prospect when one's reputation - and career progress - is at stake. And so 
+the best advice remains, as with any significant undertaking: 
+
+- break it down into small tasks
+- tackle the smaller challenges systematically
+- delegate, and use the resources of your team
+- set small goals and keep moving forwards
+- make a point of asking for help, advice, feedback
+- get buy-in from your managers and stakeholders
+- build time into the project plan for all the activities necessary - and be realistic
+
+And a final note - good luck!
