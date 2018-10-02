@@ -3,8 +3,6 @@ layout: single
 title:  "Blogging for Hackers"
 date:   2018-03-18 12:21:29 +0000
 tags: Tech
-header:
-  image: /assets/images/header_wave.jpg
 ---
 _Mar 2018: Blogging: simple enough, you have an idea of potentially at least _some_ originality, and write about it a 
 bit. Easy. Wordpress and a bunch of other great tools and sites mean anyone who wants to put their thoughts down to 
