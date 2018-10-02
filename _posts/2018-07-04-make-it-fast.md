@@ -1,10 +1,10 @@
 ---
 layout: single
-title:  "Jul-2018 - Make it Fast: The Underrated Rewards of Performance Tuning"
+title:  "Make it Fast: The Underrated Rewards of Performance Tuning"
 date:   2018-07-04 12:21:29 +0000
-tags: Misc
+tags:   Misc
 ---
-**Optimising software needn't be a chore or a drudge - consider it an opportunity for some rewarding detective work!**
+_Jul 2018: Optimising software needn't be a chore or a drudge - consider it an opportunity for some rewarding detective work!_
 
 Many will be familiar with "Make it work; make it right; make it fast", generally attributed to Kent Beck. The "fast" 
 bit trails like something of an afterthought; unlike its siblings it feels kind of _optional_, in practice anyway if not 

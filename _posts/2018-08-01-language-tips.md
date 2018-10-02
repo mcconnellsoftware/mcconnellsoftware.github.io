@@ -1,10 +1,11 @@
 ---
 layout: single
-title:  "Aug-2018 - Common Language Mistakes That Undermine Good Writing"
+title:  "Common Language Mistakes That Undermine Great Writing"
 date:   2018-08-01 12:21:29 +0000
-tags: Misc
+tags:   Misc
+
 ---
-*Watch out for these common misuses to avoid compromising otherwise great content.* 
+_Aug 2018: Watch out for these common misuses to avoid compromising otherwise great content._ 
 
 I've spent more time on the title for this one than the content I think. Because I know how infuriating the smug 
 "9 language mistakes YOU are making - you must be a MORON"! style of articles are, and I really don't want to invite 
