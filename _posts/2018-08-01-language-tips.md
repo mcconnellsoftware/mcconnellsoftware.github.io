@@ -3,7 +3,6 @@ layout: single
 title: "Common Language Mistakes That Undermine Great Writing"
 date: 2018-08-01 12:21:29 +0000
 tags: Misc
-toc: true
 ---
 _Aug 2018: Watch out for these common misuses to avoid compromising otherwise great content._ 
 
