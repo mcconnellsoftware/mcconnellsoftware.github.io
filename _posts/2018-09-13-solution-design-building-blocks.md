@@ -2,12 +2,12 @@
 layout: single
 title:  "Building Blocks of Enterprise Solution Design"
 date:   2018-09-13 12:21:29 +0000
+last_modified_at: 2018-09-13T15:12:19-04:00
 tags:   Design
----
-_Sept 2018_
 
-**Coming up with a solution design fit for use in large organisations can be a big ask - but breaking it down and 
-spending time planning your approach systematically will help you design solutions that scale to enterprise level.**
+---
+_Sept 2018 - Coming up with a solution design fit for use in large organisations can be a big ask - but breaking it down and 
+spending time planning your approach systematically will help you design solutions that scale to enterprise level._
 
 It's natural, when asked to start work on a new project, to focus on one particular area: _how to solve the core problem_.  
 
