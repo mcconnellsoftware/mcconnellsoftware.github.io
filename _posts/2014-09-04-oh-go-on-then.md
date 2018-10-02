@@ -71,7 +71,7 @@ potential for close, mutually beneficial partnership in the future.
 I’d prefer we didn’t need such leaky abstractions, but without a decent one, we’re stuck with some awful, emotionally 
 laden, patronising alternatives.
 
-### Risk -free?
+### Risk-free?
 
 I don’t think so, despite politics in this day and age being unable to contemplate the existence of doubt and of 
 “grey areas”. I don’t think anyone believes independence is a risk-free proposition. But then no-one can predict much 
