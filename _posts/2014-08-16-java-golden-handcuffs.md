@@ -4,8 +4,10 @@ title: "Java's Golden Handcuffs"
 date: 2014-08-16 12:21:29 +0000
 tags: Tech
 ---
-Is Java dead? Ask Google that question via the Chrome bar, and you get the feeling that this is an oft asked question, 
-with auto-suggest offering the following:
+_Aug 2014: Is Java dead? Ask Google that question via the Chrome bar, and you get the feeling that this is an oft 
+asked question._
+
+Auto-suggest offers the following:
 
 `is java dead 2014`  
 `is java dead 2013`  

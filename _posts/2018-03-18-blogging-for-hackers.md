@@ -1,16 +1,20 @@
 ---
 layout: single
-title:  "Mar-2018 - Blogging for Hackers"
+title:  "Blogging for Hackers"
 date:   2018-03-18 12:21:29 +0000
 tags: Tech
 header:
   image: /assets/images/header_wave.jpg
 ---
-Blogging: simple enough, you have an idea of potentially at least _some_ originality, and write about it a bit. Easy. Wordpress and a bunch of other great tools and sites mean anyone who wants to put their thoughts down to share with others can do so.
+_Mar 2018: Blogging: simple enough, you have an idea of potentially at least _some_ originality, and write about it a 
+bit. Easy. Wordpress and a bunch of other great tools and sites mean anyone who wants to put their thoughts down to 
+share with others can do so._
 
 But where's the *challenge* in that!
 
-Having long been tempted - for bandwidth and performance reasons related to an iffy self-hosted option - to move to GitHub Pages, which seem to work well with a site generator called Jekyll, I figured I'd look into it in more depth, and long story short: here we are, a new blog platform, and a very hacker friendly workflow!
+Having long been tempted - for bandwidth and performance reasons related to an iffy self-hosted option - to move to 
+GitHub Pages, which seem to work well with a site generator called Jekyll, I figured I'd look into it in more depth, 
+and long story short: here we are, a new blog platform, and a very hacker friendly workflow!
 
 Some key aspects worth mentioning:
 - GitHub Pages serves essentially *static* content, it's not somewhere you can run JSP or Servlets or any other application content

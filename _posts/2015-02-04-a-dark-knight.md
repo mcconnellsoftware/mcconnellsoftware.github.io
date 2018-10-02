@@ -1,10 +1,10 @@
 ---
 layout: single
-title:  "A Dark Knight"
-date:   2015-02-04 12:21:29 +0000
+title: "A Dark Knight"
+date: 2015-02-04 12:21:29 +0000
 tags: Links
 ---
-Sometimes puns are too obvious to even consider not using. It’s not big or clever though. I’m not proud.
+_Feb 2015: Sometimes puns are too obvious to even consider not using. It’s not big or clever though. I’m not proud._
 
 The events that took down Knight Capital are terrifying, not because of their exceptional nature but due to their very 
 mundanity.

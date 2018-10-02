@@ -1,13 +1,13 @@
 ---
 layout: single
-title:  "Enterprise Application Quality"
-date:   2015-08-05 12:21:29 +0000
+title: "Enterprise Application Quality"
+date: 2015-08-05 12:21:29 +0000
 tags: Management
-classes: wide
+toc: true
 ---
-One widely known benchmarks of “software team quality” is The Joel Test, and nitpicks aside it’s still an 
+_Aug 2015: One widely known benchmarks of “software team quality” is The Joel Test, and nitpicks aside it’s still an 
 entirely sane bunch of questions 15 years after its debut. 12 “yes” answers – or 12 x “nope!” – gives a pretty 
-quick insight into an organisation.
+quick insight into an organisation._
 
 Reading about The Joel Test again recently got me thinking about this, largely because many of the questions 
 don’t really hit close to the heart of what makes large enterprise development satisfying and effective – or not. 

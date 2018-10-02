@@ -1,13 +1,13 @@
 ---
 layout: single
-title:  "May-2018 - Colourblind in a Software Driven World"
-date:   2018-05-14 12:21:29 +0000
+title: "Colourblind in a Software Driven World"
+date: 2018-05-14 12:21:29 +0000
 tags: Misc
+toc: true
 ---
-
-Being colourblind isn't a terrible disability. It's not a daily struggle, and while it does preclude certain career 
+_May 2018: Being colourblind isn't a terrible disability. It's not a daily struggle, and while it does preclude certain career 
 choices (electricians playing "eeny meeny miny moe" with cabling don't exactly thrive) its overall impact for most is 
-mainly "shrug". 
+mainly "shrug"._ 
 
 Sometimes though, it can be a bit of a problem, purely because the way colourblind people see the world really is very 
 different to the way others do.

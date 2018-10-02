@@ -1,11 +1,12 @@
 ---
 layout: single
-title:  "Apr-2018 - Rational Ignorance and Technology Learning Challenges"
-date:   2018-04-04 12:21:29 +0000
+title: "Rational Ignorance and Technology Learning Challenges"
+date: 2018-04-04 12:21:29 +0000
 tags: Misc
+toc: true
 ---
-"Rational ignorance" is where the cost of arriving at a suitably informed, educated position outweighs the benefit of 
-doing so. In other words, it's better to not bother.
+_Apr 2018: "Rational ignorance" is where the cost of arriving at a suitably informed, educated position outweighs the 
+benefit of doing so. In other words, it's better to not bother._
 
 For example, say you're torn between buying one digital alarm clock at £10 and another at £12. They seem pretty similar
 but it's likely you'd spent 2 hours researching their features to make sure you definitely get the best one for your 

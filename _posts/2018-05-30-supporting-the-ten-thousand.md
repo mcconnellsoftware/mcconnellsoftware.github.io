@@ -1,11 +1,13 @@
 ---
 layout: single
-title:  "May-2018 - Supporting the Ten Thousand"
-date:   2018-05-30 12:21:29 +0000
+title: "Supporting the Ten Thousand"
+date: 2018-05-30 12:21:29 +0000
 tags: Misc
 ---
-A confession: when someone emails to a large technical list a "simple" question, I've sometimes in the past felt a 
-sense of "how can you not know this? _Everyone_ knows this! We solved this in 2004!".  But of course everyone _can't 
+_May 2018: A confession: when someone emails to a large technical list a "simple" question, I've sometimes in the past felt a 
+sense of "how can you not know this? Everyone knows this! We solved this in 2004!"._  
+
+But of course everyone _can't 
 possibly_ know even "the basics"; there's no such thing as "herd knowledge" among software developers. There's no "All 
 Developers Everywhere" mailing list (thankfully), and there's no monthly "Developers Journal" which new grads are 
 forced to pore through until they're fully caught up (again, for the best I expect). 

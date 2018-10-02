@@ -1,9 +1,9 @@
 ---
 layout: single
-title:  "Building Blocks of Enterprise Solution Design"
-date:   2018-09-13 12:21:29 +0000
-tags:   Design
-toc:    true
+title: "Building Blocks of Enterprise Solution Design"
+date:  2018-09-13 12:21:29 +0000
+tags: Design
+toc: true
 ---
 _Sept 2018: Coming up with a solution design fit for use in large organisations can be a big ask - but breaking it down and 
 spending time planning your approach systematically will help you design solutions that scale to enterprise level._

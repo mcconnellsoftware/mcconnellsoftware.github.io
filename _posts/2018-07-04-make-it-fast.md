@@ -1,8 +1,8 @@
 ---
 layout: single
-title:  "Make it Fast: The Underrated Rewards of Performance Tuning"
-date:   2018-07-04 12:21:29 +0000
-tags:   Misc
+title: "Make it Fast: The Underrated Rewards of Performance Tuning"
+date: 2018-07-04 12:21:29 +0000
+tags: Misc
 ---
 _Jul 2018: Optimising software needn't be a chore or a drudge - consider it an opportunity for some rewarding detective work!_
 

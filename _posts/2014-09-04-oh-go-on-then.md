@@ -1,13 +1,14 @@
 ---
 layout: single
-title:  "Oh Go On Then"
-date:   2014-09-04 12:21:29 +0000
+title: "Oh Go On Then"
+date: 2014-09-04 12:21:29 +0000
 tags: Misc
+toc: true
 ---
-Two weeks to go to the big vote. Lots of heat and noise in the past 2 years, very little light. Recent weeks have seen 
+_Sept 2014: Two weeks to go to the big vote. Lots of heat and noise in the past 2 years, very little light. Recent weeks have seen 
 a real improvement in the quality of the debate, shouty campaign-leader performances aside. As owner of a small 
 business based in Scotland, with all my family and friends here, I have as much to gain or lose from the outcome as 
-everyone else, and now seems as good a time as any to outline why I think we should take this opportunity.
+everyone else, and now seems as good a time as any to outline why I think we should take this opportunity._
 
 ### Why bother?
 

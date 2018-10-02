@@ -1,10 +1,11 @@
 ---
 layout: single
-title:  "Yes, Programming Does Suck"
-date:   2015-04-12 12:21:29 +0000
+title: "Yes, Programming Does Suck"
+date: 2015-04-12 12:21:29 +0000
 tags: Links
 ---
-Trying to explain, as a programmer to a Normal Human, why one’s day sucked can often lead to “you know, never mind”. 
+_Apr 2015: Trying to explain, as a programmer to a Normal Human, why one’s day sucked can often lead to “you know 
+what, never mind”._ 
 
 Tales of spending all day trying to debug index/query problems, then finding it’s still a 5 year old “major” JIRA, 
 don’t excite much in the way of sympathy. You can usually just skip to: stuff didn’t work, and I spent all day failing 

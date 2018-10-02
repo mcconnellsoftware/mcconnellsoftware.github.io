@@ -1,11 +1,11 @@
 ---
 layout: single
-title:  "The Joy of Specs"
-date:   2017-04-11 12:21:29 +0000
+title: "The Joy of Specs"
+date: 2017-04-11 12:21:29 +0000
 tags: Design Management
 ---
-Specifications that is, not spectacles. You see after a heated pub debate (really) about the need for “a spec” in the 
-face of almost universal Agile adoption, I felt drawn to defend this pillar of proper software engineering.
+_Apr 2017: Specifications that is, not spectacles. You see after a heated pub debate (really) about the need for “a spec” in the 
+face of almost universal Agile adoption, I felt drawn to defend this pillar of proper software engineering._
 
 In a Perfect Agile Environment with responsive, always-available customers, and subject matter experts falling from 
 the rafters, specs may not be needed. But I suspect relatively few enterprises operate in such idyllic states. So, 

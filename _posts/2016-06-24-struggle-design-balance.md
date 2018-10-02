@@ -1,11 +1,11 @@
 ---
 layout: single
-title:  "The Struggle for a Design Balance"
-date:   2016-06-24 12:21:29 +0000
+title: "The Struggle for a Design Balance"
+date: 2016-06-24 12:21:29 +0000
 tags: Design
 ---
-It’s surprisingly hard, producing software in teams, to get a consensus on “detailed design”. And by that I mean 
-the fine-grained, nitty-gritty, actual classes and interfaces.
+_Jun 2016: It’s surprisingly hard, producing software in teams, to get a consensus on “detailed design”. And by that I mean 
+the fine-grained, nitty-gritty, actual classes and interfaces._
 
 Let’s take the simplest example I can think of for now: a component to store a Product in a database. Inside 
 a “storage component” in a larger application.

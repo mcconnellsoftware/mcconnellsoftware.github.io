@@ -1,13 +1,13 @@
 ---
 layout: single
-title:  "A Software Engineering Theory of Mind"
-date:   2017-07-19 12:21:29 +0000
+title: "A Software Engineering Theory of Mind"
+date: 2017-07-19 12:21:29 +0000
 tags: Management
 ---
-In developmental psychology – i.e. how we as children develop – there’s a thing: a Theory of Mind. A
-stage kids go through, very early on, where they can first figure out in an experimental setting “Aha – Daddy
+_Jul 2017: In developmental psychology – i.e. how we as children develop – there’s a thing: a Theory of Mind. A
+stage kids go through, very early on, where they can first figure out in an experimental setting "Aha – Daddy
 wasn’t in the room when that sciency guy moved the little ball from his right hand to his left – so now Daddy has
-come back in, he will still think it’s in the sciency guy’s right hand!”.
+come back in, he will still think it’s in the sciency guy’s right hand!"._
 
 In other words they can grasp that there’s a distinct mental process going on with Daddy. Daddy doesn’t know
 what Junior does.

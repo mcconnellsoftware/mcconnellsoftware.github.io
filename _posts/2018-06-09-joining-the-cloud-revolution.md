@@ -1,13 +1,13 @@
 ---
 layout: single
-title:  "Jun-2018 - Joining the Cloud Revolution"
-date:   2018-06-09 12:21:29 +0000
+title: "Joining the Cloud Revolution"
+date: 2018-06-09 12:21:29 +0000
 tags: Misc
+toc: true
 ---
-
-Disclaimer - it's mid-2018, and "Cloud" started a long time ago. Many years ago. I know this; I'm a relative latecomer 
+_Jun 2018: Disclaimer - it's mid-2018, and "Cloud" started a long time ago. Many years ago. I know this; I'm a relative latecomer 
 to the party. Here, then, I don't pretend to champion something new and bleeding edge - I'm just presenting my own thoughts
-as I gaze from the near-bottom of the learning curve and strap my climbing gear on!
+as I gaze from the near-bottom of the learning curve and strap my climbing gear on!_
 
 
 # Setting the Scene
