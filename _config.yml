@@ -272,7 +272,8 @@ defaults:
       share: true
       related: true
       header:
-        image: /assets/images/header_wave.jpg
+        image: /assets/images/header_close_up_codes.jpg
+        caption: "Photo by Lorenzo Cafaro from Pexels [**Pexels**](https://www.pexels.com/photo/close-up-code-coding-computer-239898/)"
   - scope:
       path: ""
       type: pages
@@ -284,4 +285,5 @@ defaults:
       share: false
       related: true
       header:
-        image: /assets/images/header_wave.jpg
+        image: /assets/images/header_close_up_codes.jpg
+        caption: "Photo by Lorenzo Cafaro from Pexels [**Pexels**](https://www.pexels.com/photo/close-up-code-coding-computer-239898/)"
