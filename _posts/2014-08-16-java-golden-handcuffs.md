@@ -3,6 +3,7 @@ layout: single
 title: "Java's Golden Handcuffs"
 date: 2014-08-16 12:21:29 +0000
 tags: Tech
+toc: true
 ---
 _Aug 2014: Is Java dead? Ask Google that question via the Chrome bar, and you get the feeling that this is an oft 
 asked question._
