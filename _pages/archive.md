@@ -2,8 +2,6 @@
 layout: archive
 permalink: /archive/
 author_profile: true
-header:
-  image: /assets/images/header_wave.jpg
 ---
 {% assign postsByYear = site.posts | group_by_exp:"post", "post.date | date: '%Y'"  %}
 {% for year in postsByYear %}
