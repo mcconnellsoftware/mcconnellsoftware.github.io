@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Success Criteria: 21 Years in to a Software Career"
-date:  2018-10-08 12:21:29 +0000
+date:  2018-10-23 12:21:29 +0000
 tags: Misc
 ---
 _Oct 2018: The fact that people - well, companies mostly - have been doing me the great courtesy of paying me to produce 
@@ -62,7 +62,7 @@ friends, leisure, hobbies, etc
 
 It strikes me that 2 of the above are status measures, 2 are happiness measures, and 1 is actually a bit of both: 
 money genuinely makes some of life's more severe problems disappear, allowing a level security, stability and even 
-luxury - and if you're doing particularly well you can plonk an Aston Martin in the driveway. Quite the status
+luxury - and if you're doing _particularly_ well you can plonk an Aston Martin in the driveway. Quite the status
 indicator, that...
 
 My less-than-earth-shattering insight is maybe just that perhaps the trappings of status are hard to give up even when
