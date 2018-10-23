@@ -12,12 +12,12 @@ source "https://rubygems.org"
 
 
 ##### LOCAL
-# gem "jekyll", "~> 3.7.3"
+gem "jekyll", "~> 3.7.3"
 
 
 ##### REMOTE
-gem "jekyll-remote-theme"
-gem "github-pages", group: :jekyll_plugins
+#gem "jekyll-remote-theme"
+#gem "github-pages", group: :jekyll_plugins
 
 
 
