@@ -31,54 +31,100 @@ We all want a successful career. I'm lucky enough to think I'm enjoying one - so
 long it may continue, large lottery wins notwithstanding. I've seen colleagues from similar software development 
 backgrounds as me take many different routes over the years, though, and achieve many different types of success.
 
+
 # Success != happiness
 
 The single observation that's most prompted my reflection on all this is seeing people accept promotions into roles 
-they plainly don't enjoy. Every graduate loves making it from _Junior Developer_ to _Developer_. Every _Developer_ loves 
-getting to _Senior Developer_. 
+they plainly don't enjoy. 
 
-But the jump from _Senior Developer_ to _Manager_, in role and in daily activity if not in title, catches people 
-out - myself included, but I was fortunate to realise after a few months "away from the coal face" that frankly I didn't
-enjoy it as much as I enjoyed working hands-on with technology. Happily I was able to pivot back to the hands-on side, 
-no harm done.
+Every graduate loves making it from _Junior Developer_ to _Developer_. Every _Developer_ loves 
+getting to _Senior Developer_.  But the jump from _Senior Developer_ to _Manager_, in role and in daily activity if 
+not in title, catches people out - myself included, and I realised after a few months "away from the coal face" that 
+frankly I didn't enjoy it as much as I enjoyed working hands-on with technology. Happily I was able to pivot back to 
+the hands-on side, no harm done.
 
 That others choose to continue down paths they're plainly not happy with puzzles me. Obviously some people 
 genuinely love managerial jobs, and thrive in executive roles, just as some people are born salespeople - it's the 
-people who _don't_ that get me thinking, the ones who wistfully recall their hands-on days as they navigate a 
-Tetris-like calendar.
+people who _don't_ that get me thinking, the ones who wistfully recall their hands-on days as they navigate meetings in
+a Tetris-like calendar.
 
-Things that can be considered "success":
+Some things that can be considered "success" - a far from complete list:
 
-- job titles: "Chief VP of Global Blockchain Engineering" what a big-hitter this guy must be right!
+- job titles: "Chief VP of Global Blockchain Engineering" - it's impressive, snarky blockchain dig aside!
 
 - "fame", or at least having a highly visible profile, and "influence" 
 
 - money - wealth is one of the most universally recognised indicators of success, after all
 
-- enjoying the challenge and the impact of the hands-on work you do, day in, day out, on its own merits
+- enjoying the challenge and the impact of the hands-on work you do, day in, day out, on its own merits; this can be 
+creative, scientific, athletic, administrative, working with animals, teaching - doesn't matter, it's purely 
+a _doing something you love_ indicator  
 
 - having flexibility and control over one's workload, working patterns, and the ability to balance work, family, 
 friends, leisure, hobbies, etc
 
-It strikes me that 2 of the above are status measures, 2 are happiness measures, and 1 is actually a bit of both: 
-money genuinely makes some of life's more severe problems disappear, allowing a level security, stability and even 
-luxury - and if you're doing _particularly_ well you can plonk an Aston Martin in the driveway. Quite the status
-indicator, that...
+- helping others, perhaps medically or perhaps in more of a social or caring capacity
 
-My less-than-earth-shattering insight is maybe just that perhaps the trappings of status are hard to give up even when
+It strikes me that although two of the above could be seen as status measures, most are happiness or at least 
+satisfaction measures, and one is actually a bit of both: money genuinely makes some of life's more severe problems 
+disappear, allowing a level security, stability and even luxury - and if you're doing _particularly_ well you can plonk
+an Aston Martin in the driveway. Quite the status indicator, that...
+
+My less-than-earth-shattering insight is just that perhaps the trappings of status are hard to give up even when
 our happiness is at stake. Obviously it's for every individual to make their own choices in life, and there are complex
 factors in play - 10 years into a management or leadership role, you perhaps _literally can't_ just get back into the 
-"fun techie stuff", for example.
+"fun techie stuff", for example. 
+
+I do believe though there's something in our collective human psyche that works against us: imagine your neighbour 
+gets a stunning new car - that Aston Martin, say. She leaves the house at 6am each day, doesn't get back till 9pm, but 
+wow, she must be _killing it_ at work to get that car. 
+
+Would you swap? What factors would sway you?
+
+None of the above are mutually exclusive it's worth bearing in mind: if being European VP of Machine Learning 
+Containers gives you fame and fortune, with a 4 hour workday and a shot at ending poverty and you love every minute - 
+great! (NB I would always be available for this role if anyone has it...?)
+
+
+# The Non-linear Career
+
+Of course what we value and strive towards as young adults isn't necessarily something that stays with us over a whole 
+career (or lifetime). 
+
+I recall the excitement and impatience I had as a graduate engineer, and the exhilaration of hitting promotions and 
+pay rises. There's nothing wrong with that: it's a good way to start out, and probably a safe "default" from which to 
+develop and grow.
+
+But it's important to be aware of other routes and perhaps to conduct "course checks" every so often - every 5 to 10 
+years anyway:
+
+- do I really want that next promotion, i.e. do I want to be doing each day the work that people _already in that role_ 
+do? This is not a trick question: if you answer yes, go for it. There's absolutely nothing _wrong_ with being 
+successful! But don't jump blindly into something you'll likely hate - especially if _they_ give every sign of hating 
+it!
+
+- am I enjoying the day-to-day as-is? If not, why not? Are there small tweaks that could help?
+
+- is my workload about right? "Too light" is arguably just as damaging "too heavy" here!
+
+- where do I want to be in 5 years? 10 years? It's a cliched interview question but a good career question to 
+ask _yourself_ from time to time - and one worth thinking seriously thinking about the answer to
+
+Careers can take surprising turns, and with an appreciation that success can take many forms, it's well worth being 
+open to explore options that come along: you might _think_ you want to solve the worlds Big Data replication problems 
+but you might discover that teaching new graduates a _Starting Out With SQL_ course gives you more of a buzz than 
+you've had in years!
+
 
 # Perspective
 
 I've always inherently been a believer in delayed gratification - who, committing to a 3 or 4 year degree course isn't,
-in some small part - and right now I believe in the importance of _balance_. 
+in some small part - and right now I also believe in the importance of _balance_. 
 
 Contemplating the nature of success, I suspect the 22-year-old me would have a different view of what he wanted 
 43-year-old me to be doing than - should I be lucky enough to get there - what 64-year-old me might want to look back 
-at. 
+at. I find "what would retired me want to look back on?" quite a good  
 
-Maybe not though. Maybe they'd both think "stuff the balance, get the Aston Martin whatever it takes, loser!"
+Maybe not though. Maybe they'd both think "stuff 'balance', get the Aston Martin whatever it takes, loser!"
 
-Stayed tuned - I'll try my best to report back in 2039!
+Promise to report back in 2039...!
