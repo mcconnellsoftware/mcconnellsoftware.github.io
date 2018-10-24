@@ -114,10 +114,10 @@ of hating it!
 - is my workload about right? "Too light" is arguably just as damaging "too heavy" here!
 
 - where do I want to be in 5 years? 10 years? It's a cliched interview question but a good career question to 
-ask _yourself_ from time to time - and one worth thinking seriously thinking about the answer to
+ask yourself from time to time - and one to which it's worth thinking carefully about your answer
 
 Careers can take surprising turns, and with an appreciation that success can take many forms, it's well worth being 
-open to explore options that come along: you might _think_ you want to solve the worlds Big Data replication problems 
+open to exploring options that come along: you might _think_ you want to solve the worlds Big Data replication problems 
 but you might discover that teaching new graduates a _Starting Out With SQL_ course gives you more of a buzz than 
 you've had in years!
 
