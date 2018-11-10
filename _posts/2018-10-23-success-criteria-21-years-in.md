@@ -13,7 +13,7 @@ Have I learned anything in 21 years of professional software development? Well, 
 paying _some_ attention!
 
 Some of it's obsolete now, not least all the cool Excel stuff I could do before Microsoft excreted its damned Office 
-Ribbon thing into the world thing leaving me unarmed and bewildered. But some of it could, perhaps, by particularly 
+Ribbon thing into the world thing leaving me unarmed and bewildered. But some of it could, perhaps, by a particularly 
 kind observer, be called some form of wisdom. Facts, anyway. Experience.
 
 I've avoided writing down the 300-odd "crucial tips" I'd give 22-year-old me because there's plenty of that sort of 
@@ -25,7 +25,7 @@ certainly can't appreciate when you first start out in your career is how much y
 also how little. Philosophical stuff, right???
 
 Something I've been thinking about a lot lately is success - what is it? How important is it? What types of success are 
-there? And most importantly to me right now, what sort is most worth pursuing? 
+there? And most importantly to me right now, what sort is most worth pursuing in "Career, Act II"? 
 
 We all want a successful career. I'm lucky enough to think I'm enjoying one - so far, anyway, and with high hopes that 
 long it may continue, large lottery wins notwithstanding. I've seen colleagues from similar software development 
@@ -37,33 +37,38 @@ backgrounds as me take many different routes over the years, though, and achieve
 The single observation that's most prompted my reflection on all this is seeing people accept promotions into roles 
 they plainly don't enjoy. 
 
-Every graduate loves making it from _Junior Developer_ to _Developer_. Every _Developer_ loves 
-getting to _Senior Developer_.  But the jump from _Senior Developer_ to _Manager_, in role and in daily activity if 
-not in title, catches people out - myself included, and I realised after a few months "away from the coal face" that 
+Every hopeful job seeker relishes getting that first break, that first _Junior Developer_ opportunity.
+
+Every young engineer loves making it from _Junior Developer_ to _Developer_. 
+
+Every _Developer_ loves getting to _Senior Developer_.  
+
+But the jump from _Senior Developer_ to _Manager_, in role and in daily activity if 
+not in title, catches some people out: myself included, and I realised after a few months "away from the coal face" that 
 frankly I didn't enjoy it as much as I enjoyed working hands-on with technology. Happily I was able to pivot back to 
 the hands-on side, no harm done.
 
 That others choose to continue down paths they're plainly not happy with puzzles me. Obviously some people 
 genuinely love managerial jobs, and thrive in executive roles, just as some people are born salespeople - it's the 
 people who _don't_ relish that step up that get me thinking, the ones who wistfully recall their hands-on days as they 
-navigate, sighing, the meetings in a Tetris-like calendar.
+navigate, sighing, the meetings in a Tetris-like calendar, and armour-up for another bout of white-collar conf-call combat.
 
 Some things that can be considered "success" - a far from complete list:
 
-- job titles: "Chief VP of Global Blockchain Engineering" - it's impressive, snarky blockchain dig aside!
+- titles: "Chief VP of Global Blockchain Engineering" - it's impressive, snarky blockchain dig aside!
 
 - "fame", or at least having a highly visible profile, and "influence" 
 
 - money - wealth is one of the most universally recognised indicators of success, after all
 
 - enjoying the challenge and the impact of the hands-on work you do, day in, day out, on its own merits; this can be 
-creative, scientific, athletic, administrative, working with animals, teaching - doesn't matter, it's purely 
+creative, scientific, athletic, administrative, working with animals - doesn't matter, it's purely 
 a _doing something you love_ indicator  
 
 - having flexibility and control over one's workload, working patterns, and the ability to balance work, family, 
 friends, leisure, hobbies, etc
 
-- helping others, perhaps medically or perhaps in more of a social or caring capacity
+- helping others, perhaps medically or in a social or caring capacity, or in a teaching role
 
 It strikes me that although two of the above could be seen as status measures, most are happiness - or at least 
 satisfaction - measures, and one is actually a bit of both: money genuinely makes some of life's more severe problems 
@@ -81,7 +86,7 @@ wow, she must be _killing it_ at work to get that car.
 
 Would you swap? You sure? What factors might sway you?
 
-None of the above are mutually exclusive it's worth bearing in mind: if being European VP of Machine Learning 
+None of the above are mutually exclusive, it's worth bearing in mind: if being European VP of Machine Learning 
 Containers gives you fame and fortune, with a 4 hour workday and a shot at ending poverty and you love every minute - 
 great! 
 
@@ -97,9 +102,10 @@ I recall the excitement and impatience I had as a graduate engineer, and the exh
 pay rises. There's nothing wrong with that: it's a good way to start out, and probably a safe "default" from which to 
 develop and grow.
 
-As things turned out my own course took a few turns, all of which have been good ones, happily: left a large consulting
-firm to join what would be called a "startup" these days. Moved from that to some roles in banking technology, and into 
-some freelance work. Then back to a small startup type firm - and then back into freelance banking tech again!
+As things turned out my own course took a few turns, all of which have eventually turned out well, thankfully: left a 
+large consulting firm to join what would be called a "startup" these days. Moved from that to some roles in banking 
+technology, and into some freelance work. Then back to a small startup type firm - and then back into freelance banking 
+tech again!
 
 It's important to be aware of other routes and perhaps to conduct "right path checks" every so often - every 5 to 10 
 years anyway, it needn't be a weekly ordeal:
@@ -118,18 +124,20 @@ ask yourself from time to time - and one to which it's worth thinking carefully 
 
 Careers can take surprising turns, and with an appreciation that success can take many forms, it's well worth being 
 open to exploring options that come along: you might _think_ you want to solve the worlds Big Data replication problems 
-but you might discover that teaching new graduates a _Starting Out With SQL_ course gives you more of a buzz than 
-you've had in years!
+but you might discover that teaching new graduates a _Starting Out With SQL_ course and helping someone who's been 
+struggling with a concept suddenly "get it" gives you more of a buzz than you've had in years!
 
 
 # Perspective
 
-I've always inherently been a believer in delayed gratification - who, committing to a 3 or 4 year degree course isn't,
-in some small part - and right now I also believe in the importance of _balance_. 
+I've always inherently been a believer in delayed gratification - who, committing to a 3 or 4 year degree course _isn't_,
+in at least some small part - and right now I also believe in the importance of _balance_. 
 
 Contemplating the nature of success, I suspect the 22-year-old me would have a different view of what he wanted 
 43-year-old me to be doing than - should I be lucky enough to get there - what 64-year-old me might want to look back 
 at. I find "what would Retired Me want to look back on from his mansion in the Algarve?" quite a good way to guide my 
 thinking.
 
-Maybe not though. Maybe they'd both think "stuff 'balance', get the Aston Martin whatever it takes, loser!"
+Maybe not though. 
+
+Maybe they'd both think "stuff 'balance', get the Aston, loser!"
