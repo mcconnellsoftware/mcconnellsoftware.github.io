@@ -1,5 +1,5 @@
 ---
-layout: wide
+layout: single
 title: "Building Blocks of Enterprise Solution Design"
 date:  2018-09-13 12:21:29 +0000
 tags: Design
