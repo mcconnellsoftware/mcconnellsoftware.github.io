@@ -13,7 +13,7 @@ Have I learned anything in 21 years of professional software development? Well, 
 paying _some_ attention!
 
 Some of it's obsolete now, not least all the cool Excel stuff I could do before Microsoft excreted its damned Office 
-Ribbon thing into the world thing leaving me unarmed and bewildered. But some of it could, perhaps, by a particularly 
+Ribbon thing into the world, leaving me unarmed and bewildered. But some of it could, perhaps, by a particularly 
 kind observer, be called some form of wisdom. Facts, anyway. Experience.
 
 I've avoided writing down the 300-odd "crucial tips" I'd give 22-year-old me because there's plenty of that sort of 
