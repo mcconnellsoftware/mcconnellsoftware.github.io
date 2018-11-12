@@ -1,5 +1,5 @@
 ---
-layout: wide
+layout: posts
 title: "Success Criteria: 21 Years of Software Engineering"
 date:  2018-10-23 12:21:29 +0000
 tags: Misc
