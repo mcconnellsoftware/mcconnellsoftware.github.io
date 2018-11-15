@@ -113,15 +113,15 @@ project at hand: 5 Co-ordinators and a Plant probably won't make a great fist of
 returns without some drama and/or injury. 
 
 What problems does your team have - lack of drive? Too many "hot heads"? No-one can finish one task without starting 
-two offshoots? Could Belbin roles help understand them, and in doing so work to alleviate them?
+two offshoots? Could Belbin roles help understand those problems, and in doing so work to alleviate them?
 
 # Belbin Roles for Hiring
 
-Finally we get to the bit we mentioned right at the outset - improving our hiring processes. 
+Finally we get to the bit we mentioned right at the outset - improving our hiring!
 
-In a nutshell, awareness of the Belbin Team Roles helps us build a more balanced team - and by identifying gaps in our
-current team, or an overall Team Role Profile we'd like to put together in a new team, we can very usefully inform the 
-hiring activity we carry out.
+In a nutshell, _awareness of the Belbin Team Roles helps us build a more balanced team_ - and by identifying gaps in our
+current team, or an overall Team Role Profile we'd like to put together in a new team, we can bring a whole new set of 
+insights to the hiring activity we engage in.
 
 For example a successful software development team might consist of:
 
