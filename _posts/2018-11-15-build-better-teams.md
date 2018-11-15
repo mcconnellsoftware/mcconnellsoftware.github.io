@@ -35,7 +35,6 @@ gone entirely unnoticed: and this brings us to Belbin's Team Roles.
 
 Belbin's research essentially identifies 9 core contributor roles/styles that are typically seen in teams:
 
-
 - Plant
 - Resource Investigator
 - Co-ordinator
