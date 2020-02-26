@@ -104,9 +104,9 @@ analytics:
 author:
   name             : "Brian McConnell"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Freelance software developer working in Central Scotland"
+  bio              : "Professional software developer working in Central Scotland"
   location         : "UK"
-  email            : "info@mcconnellsoftware.co.uk"
+  email            :
   uri              :
   home             : # null (default), "absolute or relative url to link to author home"
   bitbucket        :
