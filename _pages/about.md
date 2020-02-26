@@ -7,7 +7,7 @@ permalink: /about/
 
 ## A bit about me...
 
-I’m a freelance software developer working mainly with Java, Spring, SQL and NoSQL databases, and smatterings of other good stuff: JSON, XML, scripting languages and whatnot. I’m based in Central Scotland.
+I’m a software developer working mainly with Java, Spring, SQL and NoSQL databases, and smatterings of other good stuff: JSON, XML, scripting languages and whatnot. I’m based in Central Scotland.
  
 
 ## ...and a bit about this site
