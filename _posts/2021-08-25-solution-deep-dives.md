@@ -17,10 +17,10 @@ particularly memorable new ones on Hacker News basically.
 
 ### Added Aug 2021:
 
-https://www.theguardian.com/info/2018/nov/30/bye-bye-mongo-hello-postgres
+[https://www.theguardian.com/info/2018/nov/30/bye-bye-mongo-hello-postgres](https://www.theguardian.com/info/2018/nov/30/bye-bye-mongo-hello-postgres)
 
-https://blog.discord.com/how-discord-stores-billions-of-messages-7fa6ec7ee4c7
+[https://blog.discord.com/how-discord-stores-billions-of-messages-7fa6ec7ee4c7](https://blog.discord.com/how-discord-stores-billions-of-messages-7fa6ec7ee4c7)
 
-https://www.bbc.co.uk/blogs/internet/entries/8673fe2a-e876-45fc-9a5f-203c049c9f9c ("Moving BBC Online to the cloud" in case the URL didn't make that abundantly clear...)
+[https://www.bbc.co.uk/blogs/internet/entries/8673fe2a-e876-45fc-9a5f-203c049c9f9c](https://www.bbc.co.uk/blogs/internet/entries/8673fe2a-e876-45fc-9a5f-203c049c9f9c) ("Moving BBC Online to the cloud" in case the URL didn't make that abundantly clear...)
 
-https://sixfold.medium.com/bringing-kafka-based-architecture-to-the-next-level-using-simple-postgresql-tables-415f1ff6076d
+[https://sixfold.medium.com/bringing-kafka-based-architecture-to-the-next-level-using-simple-postgresql-tables-415f1ff6076d](https://sixfold.medium.com/bringing-kafka-based-architecture-to-the-next-level-using-simple-postgresql-tables-415f1ff6076d)
