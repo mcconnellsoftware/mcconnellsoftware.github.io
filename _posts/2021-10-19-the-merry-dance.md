@@ -4,8 +4,7 @@ title: "The Merry Dance We Do"
 date:  2021-10-19 14:53:00 +0100
 tags: Misc
 ---
-
-I figured it's been a while - let's update the blog. How hard can it be to crank up the old motor?
+Oct 2021: I figured it's been a while - let's update the blog. How hard can it be to crank up the old motor?
 
 And then the trouble started.
 
