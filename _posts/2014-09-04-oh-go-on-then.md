@@ -41,20 +41,19 @@ prosperity, ambition and aspiration – not just perennial GDP expansion. That�
 ### Is that really going to happen?
 
 The SNP is not synonymous with “Scottish Government”. But yes, they probably would form the first Government in an 
-independent Scotland – and that’s not that a terrible prospect. They’ve already through devolution implemented 
+independent Scotland – and that’s not that terrible a prospect. They’ve already through devolution implemented 
 policies with widespread popular support on tuition fees, hospital parking, prescription charges, personal care for 
-the elderly – stuff that might not affect all of us everyday (but affects some people hugely, and does affect some 
-people every day), but it adds up and it signals an intent. Governments have been elected on more flimsy premises...
+the elderly – stuff that might not affect all of us every day (but affects some people hugely, and does affect some 
+people every day), but it adds up, and it signals an intent. Governments have certainly been elected on more flimsy premises...
 
 ### The Salmond Factor
 
 No one is currently up for election as Permanent Omnipotent Dictator-in-Chief, so really it does not matter what 
-anyone thinks of Alex Salmond. Independence is a long term deal, far beyond one term or one First Minister. Really: 
-not that hard a concept.
+anyone thinks of Alex Salmond. Independence is a long term deal, far beyond one term or one First Minister.
 
 ### Post-Yes: What Next?
 
-Scotland’s politician’s aren’t completely stupid: we won’t see them drive business and the middle classes 200 miles 
+Scotland’s politicians aren’t completely stupid: we won’t see them drive business and the middle classes 200 miles 
 south by increasing taxes. I think we’ll see a steady transition, evolution not revolution. But of course nobody knows 
 for sure. Maybe this is where a bit of faith is needed.
 
