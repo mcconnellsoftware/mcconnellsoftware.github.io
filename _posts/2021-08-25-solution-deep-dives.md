@@ -15,6 +15,10 @@ What worked well - and what didn't.
 I've started a list here of those I've enjoyed recently. I'll add to this from time to time, as and when I find 
 particularly memorable new ones on Hacker News basically.
 
+### Added Nov 2021:
+
+[https://blog.twitter.com/engineering/en_us/topics/infrastructure/2021/processing-billions-of-events-in-real-time-at-twitter-](https://blog.twitter.com/engineering/en_us/topics/infrastructure/2021/processing-billions-of-events-in-real-time-at-twitter-)
+
 ### Added Aug 2021:
 
 [https://www.theguardian.com/info/2018/nov/30/bye-bye-mongo-hello-postgres](https://www.theguardian.com/info/2018/nov/30/bye-bye-mongo-hello-postgres)
