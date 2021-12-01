@@ -19,6 +19,8 @@ particularly memorable new ones on Hacker News basically.
 
 [https://blog.twitter.com/engineering/en_us/topics/infrastructure/2021/processing-billions-of-events-in-real-time-at-twitter-](https://blog.twitter.com/engineering/en_us/topics/infrastructure/2021/processing-billions-of-events-in-real-time-at-twitter-)
 
+[https://www.honeycomb.io/blog/scaling-kafka-observability-pipelines/](https://www.honeycomb.io/blog/scaling-kafka-observability-pipelines/)
+
 ### Added Aug 2021:
 
 [https://www.theguardian.com/info/2018/nov/30/bye-bye-mongo-hello-postgres](https://www.theguardian.com/info/2018/nov/30/bye-bye-mongo-hello-postgres)
